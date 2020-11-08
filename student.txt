@@ -1,0 +1,4 @@
+Student name: Hasna Farhane
+Student number: 671266
+Student class: INF1B
+URL student GitHub repository: https://github.com/Hasna-code/iwantsolarenergy.git

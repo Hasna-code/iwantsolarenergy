@@ -1,0 +1,320 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    font-size: 16px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px; 
+}
+
+h2 {
+    font-size: 18px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  li {
+    display: inline;
+    padding: 12px;
+    border-style: solid;
+    border-color: #A3D651;
+}
+
+@media only screen and (max-width: 480px) {
+.navbar {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+{
+    display: none;
+}
+
+
+
+
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: #A3D651;
+}
+
+ video {
+      padding: 2px;
+      width: 100%;
+  }
+
+ .artikelen {
+     display: flex;
+     flex-wrap: wrap;
+ }
+  .zonnepaneel {
+    width: 120px;
+    height: 160px;
+    float: right;
+  }
+
+   .sunnyboy { 
+    width: 140px;
+    height: 130px;
+    float: right;
+ }
+
+ .kabelschoen {
+    width: 120px;
+    height: 120px;
+    float: right;
+ }
+
+  .zonnepaneel175W{
+    width: 50%;
+    padding-right: 15px;
+    margin-right: 15px;
+    float: left;
+    order: 1;
+  }
+
+  .sunnyboyS{
+    width: 50%;
+    padding-right: 15px;
+    margin-right: 15px;
+    float: left;
+    order: 2;
+  }
+
+  .kabelschoenen{
+    width: 50%;
+    padding-right: 15px;
+    margin-right: 15px;
+    float: left;
+    order: 3;
+  }
+
+  h3{
+    font-family: Arial, Helvetica, sans-serif;  
+  }
+
+  .reasons {
+    padding-left: 15px;
+    margin-left: 15px;
+    position: right;
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+}
+
+@media only screen and (max-width: 480px) {
+    .reasons
+     {
+         position: left;
+         order: 1;
+     }
+     .zonnepaneel{
+         order: 3;
+     }
+
+     .sunnyboy{
+         order:2;
+     }
+     .kabelschoen{
+         order: 1;
+     }
+
+    .video {
+        display: none;
+    }
+
+    .article4 {
+        display: none;
+    }
+
+    .article5{
+        order: 1;
+    }
+
+    .article3{
+        order: 2;
+    }
+
+    .article2{
+        order: 3;
+    }
+
+    .article1{
+        order: 4;
+    }
+}
+
+@media only screen and (max-width: 481px - 1179px) {
+    .reasons {
+        position: left;
+    }
+
+    .article4 {
+        display: none;
+    }
+
+    .product3 {
+        display: none;
+    }
+}
+
+.copyrights {
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+.cookie {
+  width: 150px;
+  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: #ffaa0080;
+  color: #fff;
+  padding: 8px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'article2 article1 article3'
+    'article5 article1 article4'
+    'article5 article6 article6';
+    grid-gap: 8px;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.article1 {
+    grid-area: article1;
+    border: solid 1px;
+    background-color: #a3d65133;
+    padding: 8px;
+}
+
+.article2 {
+    grid-area: article2;
+    border: solid 1px;
+    background-color: #a3d65133;
+    padding: 8px;
+}
+.article3 {
+    grid-area: article3;
+    border: solid 1px;
+    background-color: #a3d65133;
+    padding: 8px;
+}
+.article4 {
+    grid-area: article4;
+    border: solid 1px;
+    background-color: #a3d65133;
+    padding: 8px;
+}
+.article5 {
+    grid-area: article5;
+    border: solid 1px;
+    background-color: #a3d65133;
+    padding: 8px;
+}
+.article6 {
+    text-align: left;
+    grid-area: article6;
+}
+
+.product1{
+    width: 22%;
+}
+
+.product2{
+    width: 22%;
+}
+
+.product3{
+    width: 22%;
+}
+
+.products{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.rec1, .rec2, .rec3 {
+ float: left;
+}
+
+.eusolar {
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    border-style: dashed;
+    border-color:  #A3D651;
+}
+
+  table.table-eu {
+      font-size: 12px;
+      border: 1px solid #CCC; 
+      font-family: Arial, Helvetica, sans-serif;
+  } 
+
+  .table-table td {
+      padding: 2px;
+      margin: 2px;
+      border: 1px solid darkgreen;
+  }
+
+  .table-eu th {
+      background-color: #A3D651; 
+      color: black;
+      font-weight: bold;
+  }
+
+fieldset {
+      background-color: #e7f5d8;
+  }
+
+legend {
+    background-color: #A3D651;
+}
+
+
+
